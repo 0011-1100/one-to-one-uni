@@ -15,9 +15,21 @@ public class OneToOneController {
 		EntityManager entityManager=entityManagerFactory.createEntityManager();
 		EntityTransaction entityTransaction=entityManager.getTransaction();
 		
+		
+		
+		
+		//new object of branch class 
+		
+		
+		
 		Branch b=new Branch();
 		b.setName("Qsp");
 		b.setPhone(46344);
+		
+		
+		
+		
+		//creating new object for address
 		
 		Address s=new Address();
 		
